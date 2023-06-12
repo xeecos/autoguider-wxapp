@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="img" src="{{imageSrc}}"></image>
+  <text class="ip">http://{{ip}}/capture/get</text>
+  <input class="ip" maxlength="20" type="digit" bindinput="onIPChange" bindblur="onIPDone" placeholder="192.168.43.180" value="{{ip}}"/>
+</view>

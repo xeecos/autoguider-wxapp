@@ -1,0 +1,13 @@
+/**index.wxss**/
+page
+{
+    background-color: black;
+}
+.img 
+{
+    width:100%;
+}
+.ip
+{
+    color:#FFF;
+}
